@@ -1,0 +1,43 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+body {
+    width: 80%;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    width: 10%;
+    color: white;
+    background-color: #333;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+}
+
+button:hover {
+    background-color: #555;
+    cursor: pointer;
+}
+
+p.hello {
+    text-align: center;
+}
